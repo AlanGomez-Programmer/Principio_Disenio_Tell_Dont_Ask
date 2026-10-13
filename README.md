@@ -1,1 +1,1 @@
-# Tell, Don't Ask
+# Principio de diseño Tell, Don't Ask
