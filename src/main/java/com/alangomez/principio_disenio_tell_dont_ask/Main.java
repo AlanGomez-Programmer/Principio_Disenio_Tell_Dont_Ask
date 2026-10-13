@@ -1,3 +1,4 @@
+package com.alangomez.principio_disenio_tell_dont_ask;
 
 import com.alangomez.principio_disenio_tell_dont_ask.SinAplicacionDelPrincipio.CarritoCompra;
 import com.alangomez.principio_disenio_tell_dont_ask.SinAplicacionDelPrincipio.Computadora;
