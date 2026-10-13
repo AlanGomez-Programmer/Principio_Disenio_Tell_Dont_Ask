@@ -1,9 +1,9 @@
-package com.alangomez.principio_disenio_tell_dont_ask.AplicacionDelPrincipio;
+package com.alangomez.principio_disenio_tell_dont_ask.SinAplicacionDelPrincipio;
 
-public class Computadora extends Producto{
+public class Telefono extends Producto{
     private String nombreMarca;
     
-    public Computadora(String nombre, double precio, String nombreMarca){
+    public Telefono(String nombre, double precio, String nombreMarca){
         super(nombre, precio);
         this.nombreMarca = nombreMarca;
     }
@@ -18,6 +18,6 @@ public class Computadora extends Producto{
 
     @Override
     public String toString() {
-        return "Computadora{" + "nombre=" + super.getNombre() + " precio=" + super.getPrecio() + "nombreMarca=" + nombreMarca + '}';
+        return "Telefono{" + "nombre=" + super.getNombre() + " precio=" + super.getPrecio() + "nombreMarca=" + nombreMarca + '}';
     }
 }
