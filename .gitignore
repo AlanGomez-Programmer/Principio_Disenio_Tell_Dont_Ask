@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/java,netbeans,maven
-# Edit at https://www.toptal.com/developers/gitignore?templates=java,netbeans,maven
+# Created by https://www.toptal.com/developers/gitignore/api/maven,java,netbeans,linux
+# Edit at https://www.toptal.com/developers/gitignore?templates=maven,java,netbeans,linux
 
 ### Java ###
 # Compiled class file
@@ -26,6 +26,21 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+### Linux ###
+*~
+
+# temporary files which can be created if a process still has a handle open of a deleted file
+.fuse_hidden*
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
 
 ### Maven ###
 target/
@@ -56,4 +71,4 @@ dist/
 nbdist/
 .nb-gradle/
 
-# End of https://www.toptal.com/developers/gitignore/api/java,netbeans,maven
+# End of https://www.toptal.com/developers/gitignore/api/maven,java,netbeans,linux
